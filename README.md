@@ -7,7 +7,7 @@ This repository contains the material used during the tutorial
 The introductory slides are available [here]() (pdf).
 
 <p align="center">
-**[Click here](https://iot-lab.github.io/ewsn2021/slides/getting-started)** to start the tutorial
+    <strong><a href="https://iot-lab.github.io/ewsn2021/slides/getting-started">Click here</a>></strong> to start the tutorial
 </p>
 
 ## Content of tutorial
