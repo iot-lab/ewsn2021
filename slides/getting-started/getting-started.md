@@ -191,7 +191,12 @@ $ USEMODULE=xtimer make BOARD=b-l072z-lrwan1
 
 ## Exercise: read sensor data using the shell
 
-
+.center[
+<form class=notebook>
+    <input class=login id="login_sensors" type="text" oninput="check_login('login_sensors', 'launcher_sensors')" placeholder="Enter your IoT-LAB login">
+    <input class=launcher id="launcher_sensors" type="button" value="Launch notebook" onclick="open_notebook('login_sensors', 'riot/basics/sensors/sensors.ipynb')" disabled>
+</form>
+]
 
 ---
 
