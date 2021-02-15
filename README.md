@@ -6,12 +6,14 @@ This repository contains the material used during the tutorial
 
 The introductory slides are available [here]() (pdf).
 
+<p align="center">
 **[Click here](https://iot-lab.github.io/ewsn2021/slides/getting-started)** to start the tutorial
+</p>
 
 ## Content of tutorial
 
 - [Getting started](https://iot-lab.github.io/ewsn2021/slides/getting-started)
-- [Networking](https://iot-lab.github.io/ewsn2021/slides/networking)
+- [LwM2M](https://iot-lab.github.io/ewsn2021/slides/lwm2m)
 - [LoRaWAN](https://iot-lab.github.io/ewsn2021/slides/lorawan)
 - [Security](https://iot-lab.github.io/ewsn2021/slides/security)
 

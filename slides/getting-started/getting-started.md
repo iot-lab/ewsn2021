@@ -9,7 +9,7 @@ class: center, middle
 - The [FIT IoT-LAB](https://www.iot-lab.info) testbed will be used to perform
   the exercises that require hardware.
 
-  Create an account at [https://www.iot-lab.info/testbed/signup](https://www.iot-lab.info/testbed/signup)
+- We provide temporary accounts, just for this tutorial.
 
 - For the ease of use, all exercises are performed online in Jupyter Notebooks
 
@@ -137,9 +137,6 @@ $ make BOARD=<target> -C <application_dir> flash term
 
 Let's build and run our first RIOT application !<br><br>
 
-In jupyterlab, open the notebook **riot/basics/hello-world/hello-world.ipynb**
-and follow the instructions.
-
 .center[
 <form class=notebook>
     <input class=login id="login_hello" type="text" oninput="check_login('login_hello', 'launcher_hello')" placeholder="Enter your IoT-LAB login">
@@ -181,8 +178,6 @@ $ USEMODULE=xtimer make BOARD=b-l072z-lrwan1
 
 ## Exercise: write an application with a shell
 
-Follow the instructions in the notebook **riot/basics/shell/shell.ipynb**
-
 .center[
 <form class=notebook>
     <input class=login id="login_shell" type="text" oninput="check_login('login_shell', 'launcher_shell')" placeholder="Enter your IoT-LAB login">
@@ -192,14 +187,19 @@ Follow the instructions in the notebook **riot/basics/shell/shell.ipynb**
 
 ---
 
-## Summary
+## Exercise: read sensor data using the shell
 
-- Build & run your first RIOT application, native and on hardware
 
-- How to extend an application using the `shell`
 
 ---
 
-class: center, middle
+## Next steps
 
-[Back to the course](https://github.com/riot-os/riot-course#content-of-the-course)
+Let's continue with 3 more specialized topics to continue this tutorial. You can
+choose 1 between the 3:
+
+- [LwM2M](https://iot-lab.github.io/ewsn2021/slides/lwm2m)
+
+- [LoRaWAN](https://iot-lab.github.io/ewsn2021/slides/lorawan)
+
+- [Security](https://iot-lab.github.io/ewsn2021/slides/security)
