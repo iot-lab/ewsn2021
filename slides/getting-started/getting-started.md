@@ -205,8 +205,8 @@ $ USEMODULE=xtimer make BOARD=b-l072z-lrwan1
 Let's continue with 3 more specialized topics to continue this tutorial. You can
 choose 1 between the 3:
 
-- [LwM2M](https://iot-lab.github.io/ewsn2021/slides/lwm2m)
+- [LwM2M](https://iot-lab.github.io/ewsn2021/slides/lwm2m): use 802.15.4 and IPv6 to interact with a LwM2M server
 
-- [LoRaWAN](https://iot-lab.github.io/ewsn2021/slides/lorawan)
+- [LoRaWAN](https://iot-lab.github.io/ewsn2021/slides/lorawan): send sensor data over LoRaWAN and display them on a web dashboard
 
-- [Security](https://iot-lab.github.io/ewsn2021/slides/security)
+- [Security](https://iot-lab.github.io/ewsn2021/slides/security): discover security in IoT and perform a firmware update
