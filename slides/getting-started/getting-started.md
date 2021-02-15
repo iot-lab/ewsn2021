@@ -1,6 +1,8 @@
 class: center, middle
 
-# Getting started
+# Tutorial IoT on Microcontrollers
+
+## Getting started
 
 ---
 

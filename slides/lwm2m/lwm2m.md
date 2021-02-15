@@ -1,6 +1,6 @@
 class: center, middle
 
-# Networking in RIOT
+# From 802.15.4 radio to LwM2M server
 
 ---
 
