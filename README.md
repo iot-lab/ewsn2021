@@ -4,7 +4,7 @@ This repository contains the material used during the tutorial
 "IoT on Microcontrollers" during
 [EWSN 2021](https://ewsn2021.ewi.tudelft.nl/workshops-and-tutorials).
 
-The introductory slides are available [here]() (pdf).
+The introductory slides are available [here](https://iot-lab.github.io/ewsn2021/slides/intro-iotlab.pdf) (pdf).
 
 <p align="center">
     <strong><a href="https://iot-lab.github.io/ewsn2021/slides/getting-started">Click here</a></strong> to start the tutorial
