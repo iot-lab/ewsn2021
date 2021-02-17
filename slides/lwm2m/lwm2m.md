@@ -4,19 +4,16 @@ class: center, middle
 
 ---
 
-## Overview of networking technologies for IoT
+## Overview of the tutorial
 
-.center[
-    <img src="images/iot-protocols-overview.png" alt="" style="width:800px;"/>
-]
+1. Discover the 802.15.4 radio
 
----
+2. Learn how to setup a public IPv6 network with an IoT-LAB M3 node
 
-## Mapping IoT technologies to OSI layers
+3. Register a IoT-LAB M3 node with a Leshan server using LwM2M
 
-.center[
-    <img src="images/iot-stacks.png" alt="" style="width:700px;"/>
-]
+<br/>
+.center[<img src="images/leshan-overview.png" alt="" style="width: 300px;"/><br/>]
 
 ---
 

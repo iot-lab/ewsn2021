@@ -119,33 +119,16 @@ int main(void)
 
 - The build system of RIOT is based on **make** build tool
 
---
 
-- To build an application, **make** can be called in 2 ways:
-
-  - From the application directory:
+- To build an application, call **make** from the application directory:
   ```sh
   $ cd <application_directory>
   $ make
   ```
 
-  - From anywhere, by using the `-C` to specify the application directory:
   ```sh
   $ make -C <application_directory>
   ```
-
---
-
-- Use the **BOARD** variable to specify the target at build time
-```sh
-$ make BOARD=<target> -C <application_directory>
-```
-`BOARD` can be any board supported by RIOT<br>
-&#x21d2; see the **RIOT/boards** directory for the complete list
-
---
-
-- Use the **RIOTBASE** variable to specify the RIOT source base directory
 
 ---
 
@@ -161,8 +144,6 @@ $ <application_dir>/bin/native/application.elf
 
 - Running on **hardware**: the RIOT application must be *flashed* first on the
   board
-
---
 
 &#x21d2; use the **flash** and **term** targets with make
   - **flash**: build and write the firmware on the MCU flash memory
@@ -247,8 +228,7 @@ $ USEMODULE=xtimer make BOARD=b-l072z-lrwan1
 
 ## Next steps
 
-Let's continue with 3 more specialized topics to continue this tutorial. You can
-choose 1 between the 3:
+Let's continue with 3 more specialized tutorials. You can choose 1 out of 3 at your convenience:
 
 - [LwM2M](https://iot-lab.github.io/ewsn2021/slides/lwm2m): use 802.15.4 and IPv6 to interact with a LwM2M server
 

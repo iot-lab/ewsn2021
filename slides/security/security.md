@@ -12,9 +12,7 @@ class: center, middle
       <img src="images/cadenas.png" alt="" style="width:100px;"/>
   ]
 
---
-
-3. Hands-on activities: building blocks for secure IoT firmware update over the network
+2. Hands-on activities: building blocks for secure IoT firmware update over the network
 
 ---
 
@@ -22,17 +20,15 @@ class: center, middle
 
 1. Exercise 1: compute hashes using SHA256 and SHA3-256
 
---
-
 2. Exercise 2: sign and verify signature using ed25519
-
---
 
 3. Exercise 3: encrypt and decrypt a message using AES128 (CTR Mode)
 
---
+4. Exercise 4: secure firmware update over the network with SUIT and CoAP
 
-4. Exercise 5: secure firmware update over the network with SUIT and CoAP
+.center[
+    <img src="images/suit-slides2.png" alt="" style="width:720px;"/>
+]
 
 ---
 
