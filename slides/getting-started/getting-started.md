@@ -64,7 +64,7 @@ IoT-LAB provides power-consumption monitoring, let's see how to work with this f
 
 ---
 
-## Advanced monitoring manipulations on IoT-LAB (1)
+## Advanced monitoring manipulations on IoT-LAB (2)
 
 IoT-LAB provides radio RSSI monitoring per node, let's see how to work with this feature:
 
