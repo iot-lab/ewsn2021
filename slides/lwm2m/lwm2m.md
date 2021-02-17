@@ -4,17 +4,6 @@ class: center, middle
 
 ---
 
-## IoT in the digital world
-
-
-.center[
-    <img src="images/iot-global-overview.png" alt="" style="width:800px;"/>
-]
-
-.right[<span style="font-style: italic;font-size:12px">Source: https://www.keysight.com/upload/cmc_upload/All/Slide_IOT_Part_1.pdf</span>]
-
----
-
 ## Overview of networking technologies for IoT
 
 .center[
@@ -27,8 +16,6 @@ class: center, middle
 
 .center[
     <img src="images/iot-stacks.png" alt="" style="width:700px;"/>
-    <br><br>
-    &#x21d2; RIOT supports ZigBee (6LowPAN), Thread and soon BLE and WiFi
 ]
 
 ---
@@ -58,6 +45,8 @@ Learn how to setup a public IPv6 network on an IoT-LAB node
 ---
 
 ## Exercise: communication with a LwM2M server
+
+Interact with a Leshan server using LwM2M
 
 .center[
 <form class=notebook>

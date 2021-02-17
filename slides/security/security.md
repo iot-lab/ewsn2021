@@ -4,20 +4,6 @@ class: center, middle
 
 ---
 
-## Agenda
-
-1. _**Goals of the Tutorial**_
-
-2. Tutorial Tooling
-
-3. A Quick Overview of RIOT
-
-4. First Steps Hands-On with RIOT
-
-5. IoT Security Hands-On
-
----
-
 ## Goals of the Tutorial (1)
 
 1. Get some basics of security on IoT devices based on micro-controllers
@@ -47,72 +33,6 @@ class: center, middle
 --
 
 4. Exercise 5: secure firmware update over the network with SUIT and CoAP
-
----
-
-## Security basics for IoT
-
----
-
-## What Attacks?
-
-To secure IoT devices, one must consider attacks of diverse nature.
-
-.center[
-    <img src="images/iot-attack-levels.png" alt="" style="width:720px;"/>
-]
-
----
-
-## What's special about IoT Security?
-
-Mechanisms must:
-
-- require 10^6 less (RAM and Flash) memory;
-- require 10^6 less (control and user) traffic throughput;
-- support much smaller packet size (very efficiently);
-- function with much weaker CPU, 10^3 slower or less;
-- human factor is different (not 1:1 relationship for humans / machines);
-- secure storage of secrets (e.g. cryptographic keys) is a challenge on
-simplistic low-end IoT device.
-
----
-
-## Security in Practice
-
-IoT security in practice must combine 
-
-- several defense mechanisms, 
-- working at different levels of the system, and 
-- protecting against different types of attacks. 
-
-Each of these defense mechanisms is necessary, but not sufficient to achieve security overall.
-
-Next, we focus on mechanisms applicable on low-end IoT devices to:
-
-- defend against network attacks, and
-- defend against some software attacks based on remote malware installation.
-
----
-
-## Crypto Primitives for IoT Security (1)
-
-Appropriate primitives for basic guarantees on digital data in IoT?
-
-- **Authenticity**: guarantee on the origin of the data;
-- **Integrity**: guarantee that original data has not been tampered with;
-- **Confidentiality**: guarantee that data is intelligible only for intended recipients.
-
----
-
-## Crypto Primitives for IoT Security (2)
-
-Typical building blocks are:
-
-- **Hash**: function mapping data of arbitrary size to (smaller) fixed-size values;
-- **Encryption**: set of algorithms enabling the originator (resp. recipient) of digital data to encode (resp. decypher) this data using one or more keys.
-- **Digital Signature**: set of algorithms enabling (private/public) key generation, signature generation based on private key and authenticity verification based on public key.
-
 
 ---
 
@@ -158,30 +78,6 @@ Schnorr signature scheme, on the ed25519 curve.
 
 ---
 
-## Network Protocols for IoT Security (1)
-
-Generic protocols for low-power IoT networks?
-
-- wide variety low-power comunication technologies (BLE, Zigbee, LoRa, SigFox... and some wired alternatives too)
-- IP protocols have been adapted to work over these
-
-.center[
-    <img src="images/iot-protocols2.png" alt="" style="width:720px;"/>
-]
-
----
-
-## Network Protocols for IoT Security (2)
-
-Generic security protocols for low-power IoT networks?
-
-
-.center[
-    <img src="images/iot-protocols3.png" alt="" style="width:720px;"/>
-]
-
----
-
 ## Securing IoT Software (1)
 
 What Internet-age software has taught us:
@@ -202,6 +98,7 @@ SUIT standard (work-in progress at IETF, see draft-ietf-suit-manifest-09)
 ]
 
 ---
+
 ## SUIT Workflow
 
 
