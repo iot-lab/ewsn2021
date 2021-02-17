@@ -66,7 +66,7 @@ IoT-LAB provides power-consumption monitoring, let's see how to work with this f
 
 ## Advanced monitoring manipulations on IoT-LAB (1)
 
-IoT-LAB provides radio sniffing per node, let's see how to work with this feature:
+IoT-LAB provides radio RSSI monitoring per node, let's see how to work with this feature:
 
 .center[
 <form class=notebook>
