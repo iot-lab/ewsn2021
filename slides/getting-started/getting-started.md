@@ -206,6 +206,9 @@ $ USEMODULE=xtimer make BOARD=b-l072z-lrwan1
 
 ## Exercise: write an application with a shell
 
+Let's extend the RIOT application with a shell. The shell will contain 2 simple commands: `board` and `cpu`.
+<br>
+
 .center[
 <form class=notebook>
     <input class=login id="login_shell" type="text" oninput="check_login('login_shell', 'launcher_shell')" placeholder="Enter your IoT-LAB login">
@@ -217,6 +220,12 @@ $ USEMODULE=xtimer make BOARD=b-l072z-lrwan1
 
 ## Exercise: read sensor data using the shell
 
+Let's write a more advanced RIOT application to read sensors values.
+<br>
+
+The application will use advanced techniques to read some data in a separate thread and use mutexes to synchronize the threads!
+
+<br>
 .center[
 <form class=notebook>
     <input class=login id="login_sensors" type="text" oninput="check_login('login_sensors', 'launcher_sensors')" placeholder="Enter your IoT-LAB login">
