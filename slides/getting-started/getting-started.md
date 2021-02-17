@@ -38,6 +38,51 @@ Available at **https://labs.iot-lab.info**
 
 ---
 
+## Your first experiment on IoT-LAB
+
+Let's launch a simple experiment on IoT-LAB!
+
+.center[
+<form class=notebook>
+    <input class=login id="login_experiment" type="text" oninput="check_login('login_experiment', 'launcher_experiment')" placeholder="Enter your IoT-LAB login">
+    <input class=launcher id="launcher_experiment" type="button" value="Launch notebook" onclick="open_notebook('login_experiment', 'first-experiment/first-experiment.ipynb')" disabled>
+</form>
+]
+
+---
+
+## Advanced monitoring manipulations on IoT-LAB (1)
+
+IoT-LAB provides power-consumption monitoring, let's see how to work with this feature:
+
+.center[
+<form class=notebook>
+    <input class=login id="login_consumption" type="text" oninput="check_login('login_consumption', 'launcher_consumption')" placeholder="Enter your IoT-LAB login">
+    <input class=launcher id="launcher_consumption" type="button" value="Launch notebook" onclick="open_notebook('login_consumption', 'testbed/monitoring/consumption.ipynb')" disabled>
+</form>
+]
+
+---
+
+## Advanced monitoring manipulations on IoT-LAB (1)
+
+IoT-LAB provides radio sniffing per node, let's see how to work with this feature:
+
+.center[
+<form class=notebook>
+    <input class=login id="login_radio" type="text" oninput="check_login('login_radio', 'launcher_radio')" placeholder="Enter your IoT-LAB login">
+    <input class=launcher id="launcher_radio" type="button" value="Launch notebook" onclick="open_notebook('login_radio', 'testbed/monitoring/radio.ipynb')" disabled>
+</form>
+]
+
+---
+
+class: center, middle
+
+# Play with RIOT
+
+---
+
 ## Structure of a RIOT application
 
 A minimal RIOT application consists in:
